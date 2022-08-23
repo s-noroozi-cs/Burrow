@@ -25,4 +25,4 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181/local
       KAFKA_ADVERTISED_LISTENERS: plaintext://kafka:9092
       KAFKA_LISTENERS: plaintext://kafka:9092
-      KAFKA_CREATE_TOPICS: "test-topic:2:1,test-topic2:1:1,test-topic3:1:1"
+      KAFKA_CREATE_TOPICS: "test-topic:1:1,test-topic2:1:1,test-topic3:1:1"
